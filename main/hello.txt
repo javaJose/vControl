@@ -1,2 +1,13 @@
+1st attempt----------
+used:
+git checkout -b devjose
+then modified sub1Hello.txt with a commit "updates sub1hello"
+git push
+
+then i did:
+git checkout master
+git merge devjose
+and there was Fast Forward and the master branch had all that devjose had
+
 hello there, changes are made at the top
 
